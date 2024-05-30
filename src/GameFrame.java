@@ -19,9 +19,9 @@ import java.util.List;
         JLabel backgroundLabel = new JLabel();
         JLabel winLabel = new JLabel();
         JPanel winPanel = new JPanel();
-        ImageIcon background = new ImageIcon("Background.png");
-        ImageIcon backCard = new ImageIcon("UnoCards/Back.png");
-        Character[] suits = {'❤','♦','♠','♣'};
+
+        ImageIcon backCard = new ImageIcon("UnoCards/Back.jpg");
+        Character[] suits = {'R','Y','G','B'};
 
         public GameFrame(){
 
@@ -116,9 +116,6 @@ import java.util.List;
             deck.setContentAreaFilled(false);
             this. add(deck);
 
-            backgroundLabel.setBounds(0,0,1900,1000);
-            backgroundLabel.setIcon(background);
-            this.add(backgroundLabel);
 
         }
     }

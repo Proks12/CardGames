@@ -87,9 +87,9 @@ public class Card {
             case ACE ->{
                 return "A";
             }
-            /*case DIRSWITCH ->{
-                return "D";
-            }*/
+            case PLUSTWO ->{
+                return "+2";
+            }
 
         }
         return null;

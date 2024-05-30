@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,7 +14,6 @@ public class Uno implements ActionListener {
 
         deck.setLastPlayedCard(deck.remainingDeck.get(12));
         deck.remainingDeck.remove(12);
-
         for (int i = 0; i < 3; i++) {
 
             Player player = new Player();
@@ -84,9 +82,9 @@ public class Uno implements ActionListener {
      */
     public void playCard(Card card){
 
-        if (isSeven(card)){
+        if (isPlusTwo(card)){
             playNormal(card);
-            playSeven();
+            playPlusTwo();
         }
         if (isAce(card)){
             playAce(card);
@@ -111,7 +109,7 @@ public class Uno implements ActionListener {
 
         return card.getColor().equals(deck.getLastPlayedCard().getColor()) ||
                 card.getRank().equals(deck.getLastPlayedCard().getRank()) &&
-                        !isJack(card) && !isSeven(card) && !isAce(card);
+                        !isJack(card) && !isPlusTwo(card) && !isAce(card);
     }
 
     /**
@@ -119,9 +117,9 @@ public class Uno implements ActionListener {
      * @param card
      * @return
      */
-    public boolean isSeven(Card card){
+    public boolean isPlusTwo(Card card){
 
-        return card.getRank().equals(Rank.SEVEN);
+        return card.getRank().equals(Rank.PLUSTWO);
     }
 
     /**
@@ -161,7 +159,7 @@ public class Uno implements ActionListener {
     /**
      * This method is called when the card played is a seven and plays its special properties.
      */
-    public void playSeven() {
+    public void playPlusTwo() {
 
         for (int i = 0; i < 2; i++) {
 
