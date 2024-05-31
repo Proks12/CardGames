@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02bdee98-78d7-4182-b8e9-5b5657acd749" name="Changes" comment="Uno almost done">
-      <change afterPath="$PROJECT_DIR$/src/BlackJack.java" afterDir="false" />
+    <list default="true" id="02bdee98-78d7-4182-b8e9-5b5657acd749" name="Changes" comment="Uno Done&#10;BlackJack Done">
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardFaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardFaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/marti/IdeaProjects/Kopecky_C2c_MauMau"
+    "last_opened_file_path": "C:/Users/marti/IdeaProjects/Kopecky_C2c_MauMau",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715885792142</updated>
-      <workItem from="1715885794266" duration="16765000" />
+      <workItem from="1715885794266" duration="19209000" />
     </task>
     <task id="LOCAL-00001" summary="Add Color and Rank Enums">
       <created>1715887662252</created>
@@ -69,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716994587229</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uno Done&#10;BlackJack Done">
+      <created>1717099312644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717099312644</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +95,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Color and Rank Enums" />
     <MESSAGE value="Uno almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uno almost done" />
+    <MESSAGE value="Uno Done&#10;BlackJack Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uno Done&#10;BlackJack Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
