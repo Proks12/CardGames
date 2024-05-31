@@ -133,7 +133,7 @@ public class BlackJack {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         gamePanel.setLayout(new BorderLayout());
-
+        gamePanel.setBackground(new Color(14, 85, 16));
         frame.add(gamePanel);
 
         hitButton.setFocusable(false);

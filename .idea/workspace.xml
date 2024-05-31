@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CardGames:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="02bdee98-78d7-4182-b8e9-5b5657acd749" name="Changes" comment="added Menu" />
+    <list default="true" id="02bdee98-78d7-4182-b8e9-5b5657acd749" name="Changes" comment="added Tests&#10;adeed Jar file">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CardGames_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2024_22_10_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2024_22_10__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGames.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlackJackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGames.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CardGames.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uno.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +34,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,17 +52,100 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JAR Application.CardGames.jar.executor": "Run",
+    "JUnit.BlackJackTest.buildDeck.executor": "Run",
+    "JUnit.BlackJackTest.reducePlayerAce.executor": "Run",
+    "JUnit.UnoTest.drawCard.executor": "Run",
+    "JUnit.UnoTest.executor": "Run",
+    "JUnit.UnoTest.isAce.executor": "Run",
+    "JUnit.UnoTest.playNormal.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/marti/IdeaProjects/Kopecky_C2c_MauMau",
-    "project.structure.last.edited": "Modules",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marti\IdeaProjects\CardGames" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.CardGames.jar">
+    <configuration name="BlackJackTest.buildDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlackJackTest" />
+      <option name="METHOD_NAME" value="buildDeck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackJackTest.reducePlayerAce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlackJackTest" />
+      <option name="METHOD_NAME" value="reducePlayerAce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnoTest.drawCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnoTest" />
+      <option name="METHOD_NAME" value="drawCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnoTest.playNormal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnoTest" />
+      <option name="METHOD_NAME" value="playNormal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardGames.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/CardGames_jar/CardGames.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.CardGames.jar" />
+        <item itemvalue="JUnit.BlackJackTest.buildDeck" />
+        <item itemvalue="JUnit.BlackJackTest.reducePlayerAce" />
+        <item itemvalue="JUnit.UnoTest.playNormal" />
+        <item itemvalue="JUnit.UnoTest.drawCard" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715885792142</updated>
-      <workItem from="1715885794266" duration="19314000" />
+      <workItem from="1715885794266" duration="19209000" />
     </task>
     <task id="LOCAL-00001" summary="Add Color and Rank Enums">
       <created>1715887662252</created>
@@ -71,14 +177,7 @@
       <option name="project" value="LOCAL" />
       <updated>1717099312644</updated>
     </task>
-    <task id="LOCAL-00004" summary="added Menu">
-      <created>1717185264652</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717185264652</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,8 +198,8 @@
     <MESSAGE value="Add Color and Rank Enums" />
     <MESSAGE value="Uno almost done" />
     <MESSAGE value="Uno Done&#10;BlackJack Done" />
-    <MESSAGE value="added Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Menu" />
+    <MESSAGE value="added Tests&#10;adeed Jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Tests&#10;adeed Jar file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

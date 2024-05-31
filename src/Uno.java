@@ -188,7 +188,6 @@ public class Uno implements ActionListener {
         deck.setLastPlayedCard(card);
         deck.playedDeck.add(card);
         players[playerPlays].getCards().remove(card);
-
         gameFrame.lastCardLabel.setIcon(deck.getLastPlayedCard().getFace());
         gameFrame.hands.get(playerPlays).removeItem(card);
         checkWin();

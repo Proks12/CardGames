@@ -31,6 +31,7 @@ import java.util.List;
             this.setDefaultCloseOperation(EXIT_ON_CLOSE);
             this.setLayout(null);
             this.setIconImage(backCard.getImage());
+            this.getContentPane().setBackground(new Color(14, 85, 16));
 
             changePanel.setBounds(75,600,430,100);
             changePanel.setLayout(new GridLayout(1,4,10,10));
