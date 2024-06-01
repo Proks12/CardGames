@@ -16,7 +16,9 @@ public class Menu extends JFrame implements ActionListener {
     JButton quit = new JButton();
     JButton Uno = new JButton();
     JButton BlackJack = new JButton();
-
+    /**
+     * Constructs a Menu object and initializes the menu window with buttons to select different games or quit.
+     */
     Menu(){
         this.setSize(width,height);
         this.setVisible(true);
@@ -72,7 +74,11 @@ public class Menu extends JFrame implements ActionListener {
 
 
     }
-
+    /**
+     * Handles the action events for the buttons in the menu.
+     *
+     * @param e the ActionEvent triggered by clicking a button.
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
 

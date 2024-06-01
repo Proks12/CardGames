@@ -10,7 +10,9 @@ public class Deck {
     private Card lastPlayedCard;
     private int i = 0;
 
-
+    /**
+     * Constructs a Deck object, initializes the deck with cards, and shuffles the deck.
+     */
     Deck(){
 
         for (Colors color : Colors.values()) {
@@ -22,15 +24,25 @@ public class Deck {
         }
         shuffleDeck();
     }
-
+    /**
+     * Shuffles the remaining deck of cards.
+     */
     public void shuffleDeck() {
         Collections.shuffle(remainingDeck);
     }
-
+    /**
+     * Returns the last played card.
+     *
+     * @return The last played card.
+     */
     public Card getLastPlayedCard() {
         return lastPlayedCard;
     }
-
+    /**
+     * Sets the last played card.
+     *
+     * @param lastPlayedCard The card to be set as the last played card.
+     */
     public void setLastPlayedCard(Card lastPlayedCard) {
         this.lastPlayedCard = lastPlayedCard;
     }

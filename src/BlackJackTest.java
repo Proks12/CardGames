@@ -5,7 +5,10 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BlackJackTest {
-
+    /**
+     * Tests if the reducePlayerAce method correctly reduces the player's sum
+     * when they have an Ace and their sum exceeds 21.
+     */
     @Test
     void reducePlayerAce() {
         BlackJack blackJack = new BlackJack();
@@ -19,7 +22,9 @@ class BlackJackTest {
 
 
     }
-
+    /**
+     * Tests if the buildDeck method correctly builds a full deck of 52 cards.
+     */
     @Test
     void buildDeck() {
         BlackJack blackJack = new BlackJack();

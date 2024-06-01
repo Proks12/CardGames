@@ -3,6 +3,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class UnoTest {
+    /**
+     * Tests if the isAce method correctly identifies an Ace card.
+     */
 
     @org.junit.jupiter.api.Test
     void isAce() {
@@ -12,7 +15,9 @@ class UnoTest {
     }
 
 
-
+    /**
+     * Tests if the drawCard method correctly draws a card and adds it to the player's hand.
+     */
     @org.junit.jupiter.api.Test
     void drawCard() {
         Uno uno  = new Uno();
@@ -24,7 +29,9 @@ class UnoTest {
 
 
     }
-
+    /**
+     * Tests if the playNormal method correctly plays a card and removes it from the player's hand.
+     */
     @Test
     void playNormal() {
         Uno uno = new Uno();

@@ -4,6 +4,9 @@ import java.util.List;
 
 public class CardFaces {
     List<ImageIcon> faces = new ArrayList<>();
+    /**
+     * Constructs a CardFaces object and initializes the list of card face images.
+     */
 CardFaces(){
     faces.add(new ImageIcon("UnoCards/BlueZero.jpg"));
     faces.add(new ImageIcon("UnoCards/BlueOne.jpg"));

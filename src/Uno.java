@@ -157,7 +157,7 @@ public class Uno implements ActionListener {
     }
 
     /**
-     * This method is called when the card played is a seven and plays its special properties.
+     * This method is called when the card played is a plus2 and plays its special properties.
      */
     public void playPlusTwo() {
 

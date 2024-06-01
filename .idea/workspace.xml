@@ -10,19 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02bdee98-78d7-4182-b8e9-5b5657acd749" name="Changes" comment="added Tests&#10;adeed Jar file">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CardGames_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2024_22_10_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2024_22_10__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGames.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackJackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CardGames.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CardGames.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardFaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardFaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JAR Application.CardGames.jar (1).executor": "Run",
     "JAR Application.CardGames.jar.executor": "Run",
     "JUnit.BlackJackTest.buildDeck.executor": "Run",
     "JUnit.BlackJackTest.reducePlayerAce.executor": "Run",
@@ -91,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.CardGames.jar">
+  <component name="RunManager" selected="JAR Application.CardGames.jar (1)">
     <configuration name="BlackJackTest.buildDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGames" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,16 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnoTest.drawCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CardGames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnoTest" />
-      <option name="METHOD_NAME" value="drawCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnoTest.playNormal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGames" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,17 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardGames.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/CardGames.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="CardGames.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/CardGames_jar/CardGames.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.CardGames.jar (1)" />
         <item itemvalue="JAR Application.CardGames.jar" />
         <item itemvalue="JUnit.BlackJackTest.buildDeck" />
         <item itemvalue="JUnit.BlackJackTest.reducePlayerAce" />
         <item itemvalue="JUnit.UnoTest.playNormal" />
-        <item itemvalue="JUnit.UnoTest.drawCard" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717099312644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Tests&#10;adeed Jar file">
+      <option name="closed" value="true" />
+      <created>1717190077258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717190077258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

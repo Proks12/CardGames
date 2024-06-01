@@ -4,7 +4,13 @@ public class Card {
     private Colors colors;
     private Rank rank;
     private ImageIcon face;
-
+    /**
+     * Constructs a card with the specified color, rank, and face image.
+     *
+     * @param colors The color of the card (e.g., BLUE, RED, YELLOW, GREEN).
+     * @param rank   The rank of the card (e.g., ZERO, ONE, TWO, ..., JACK, ACE, PLUSTWO).
+     * @param face   The face image of the card.
+     */
     public Card(Colors colors, Rank rank, ImageIcon face) {
         this.colors = colors;
         this.rank = rank;
@@ -12,26 +18,46 @@ public class Card {
     }
 
 
-
+    /**
+     * Returns the rank of the card.
+     *
+     * @return The rank of the card.
+     */
     public Rank getRank() {
         return rank;
     }
-
+    /**
+     * Returns the face image of the card.
+     *
+     * @return The face image of the card.
+     */
     public ImageIcon getFace() {
         return face;
     }
-
+    /**
+     * Returns the color of the card.
+     *
+     * @return The color of the card.
+     */
     public Colors getColor() {
         return colors;
     }
-
+    /**
+     * Sets the color of the card.
+     *
+     * @param color The color to set for the card.
+     */
     public void setColor(Colors color) {
         this.colors = colors;
     }
 
     public Character suitString(){
 
-
+/**
+ * Returns a character representing the color of the card.
+ *
+ * @return A character representing the color of the card (B, R, Y, G).
+ */
         switch (colors){
             case BLUE -> {
                 return 'B';
@@ -48,7 +74,11 @@ public class Card {
         }
         return null;
     }
-
+    /**
+     * Returns a string representing the rank of the card.
+     *
+     * @return A string representing the rank of the card.
+     */
     public String rankString(){
         switch (rank){
             case ZERO ->{
@@ -94,7 +124,11 @@ public class Card {
         }
         return null;
     }
-
+    /**
+     * Returns the string representation of the card.
+     *
+     * @return A string representing the card in the format "rankColor".
+     */
     @Override
     public String toString() {
         return rankString() + suitString();

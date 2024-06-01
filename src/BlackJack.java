@@ -8,16 +8,29 @@ public class BlackJack {
     private class Card {
         String value;
         String type;
-
+        /**
+         * Constructs a card with the specified value and type.
+         *
+         * @param value The value of the card (e.g., "A", "2", ..., "K").
+         * @param type  The type of the card (e.g., "C", "D", "H", "S").
+         */
         Card(String value, String type) {
             this.value = value;
             this.type = type;
         }
-
+        /**
+         * Returns the string representation of the card.
+         *
+         * @return A string representing the card in the format "value-type".
+         */
         public String toString() {
             return value + "-" + type;
         }
-
+        /**
+         * Returns the numerical value of the card for the game.
+         *
+         * @return The value of the card (2-10 for number cards, 10 for face cards, 11 for an Ace).
+         */
         public int getValue() {
             if ("AJQK".contains(value)) { //A J Q K
                 if (value == "A") {
@@ -27,11 +40,19 @@ public class BlackJack {
             }
             return Integer.parseInt(value); //2-10
         }
-
+        /**
+         * Checks if the card is an Ace.
+         *
+         * @return True if the card is an Ace, false otherwise.
+         */
         public boolean isAce() {
             return value == "A";
         }
-
+        /**
+         * Returns the image path for the card.
+         *
+         * @return The image path of the card.
+         */
         public String getImagePath() {
             return "./cards/" + toString() + ".png";
         }
@@ -122,7 +143,9 @@ public class BlackJack {
     JPanel buttonPanel = new JPanel();
     JButton hitButton = new JButton("Hit");
     JButton stayButton = new JButton("Stay");
-
+    /**
+     * Constructs a BlackJack game, initializing the game window and starting the game.
+     */
     BlackJack() {
         startGame();
 
@@ -172,7 +195,9 @@ public class BlackJack {
 
         gamePanel.repaint();
     }
-
+    /**
+     * Starts a new game by building and shuffling the deck, and dealing initial cards to the player and dealer.
+     */
     public void startGame() {
         //deck
         buildDeck();
@@ -208,7 +233,9 @@ public class BlackJack {
 
 
     }
-
+    /**
+     * Builds a standard 52-card deck.
+     */
     public void buildDeck() {
         deck = new ArrayList<Card>();
         String[] values = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
@@ -223,7 +250,9 @@ public class BlackJack {
 
 
     }
-
+    /**
+     * Shuffles the deck of cards.
+     */
     public void shuffleDeck() {
         for (int i = 0; i < deck.size(); i++) {
             int j = random.nextInt(deck.size());
@@ -235,7 +264,11 @@ public class BlackJack {
 
 
     }
-
+    /**
+     * Adjusts the player's sum to account for Aces being worth 1 instead of 11 if necessary.
+     *
+     * @return The adjusted player sum.
+     */
     public int reducePlayerAce() {
         while (playerSum > 21 && playerAceCount > 0) {
             playerSum -= 10;
@@ -243,7 +276,11 @@ public class BlackJack {
         }
         return playerSum;
     }
-
+    /**
+     * Adjusts the dealer's sum to account for Aces being worth 1 instead of 11 if necessary.
+     *
+     * @return The adjusted player sum.
+     */
     public int reduceDealerAce() {
         while (dealerSum > 21 && dealerAceCount > 0) {
             dealerSum -= 10;

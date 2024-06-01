@@ -22,7 +22,9 @@ import java.util.List;
 
         ImageIcon backCard = new ImageIcon("UnoCards/Back.jpg");
         Character[] suits = {'R','Y','G','B'};
-
+        /**
+         * Constructs a GameFrame object and initializes the game window.
+         */
         public GameFrame(){
 
             this.setSize(1900,1000);
